@@ -131,7 +131,7 @@ public class MainMenu {
             if (selectedRoom != null) {
                 while(HotelResource.getInstance().isRoomReservedAtDate(selectedRoom, addDays(checkInDate,7)))
                 {
-                    System.out.println("This room is already reserved. Please try another one");
+                    System.out.println("This room is already reserved. Please try another ");
                     roomNumberStr = scanner.nextLine();
 
                     try
